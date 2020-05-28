@@ -22,5 +22,3 @@
 
 ## Examples
 
-* [Untitled](examples/untitled.md)
-
