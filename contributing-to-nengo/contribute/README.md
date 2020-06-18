@@ -1,3 +1,9 @@
+---
+description: >-
+  https://github.com/nengo/nengo/blob/v3.0.0/docs/contributing.rst
+  https://www.nengo.ai/nengo/v3.0.0/contributing.html
+---
+
 # Nengo에 기여하기
 
 [컨트리뷰터를 위한 안내서](general.md)를 먼저 읽어주세요. 아래의 설명은 `nengo` 프로젝트에 적용됩니다.
