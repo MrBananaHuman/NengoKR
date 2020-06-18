@@ -1,6 +1,6 @@
 # Nengo에 기여하기
 
-[컨트리뷰터를 위한 안내서](https://app.gitbook.com/@nengokr/s/nengo_kr/contributing-to-nengo/contributing/general)를 먼저 읽어주세요. 아래의 설명은 `nengo` 프로젝트에 적용됩니다.
+[컨트리뷰터를 위한 안내서](https://app.gitbook.com/@nengokr/s/nengo_kr/contributing-to-nengo/contribute/general)를 먼저 읽어주세요. 아래의 설명은 `nengo` 프로젝트에 적용됩니다.
 
 {% page-ref page="general.md" %}
 
