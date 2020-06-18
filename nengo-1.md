@@ -25,7 +25,7 @@ pytest --pyargs nengo
 
 ### 개별 테스트 실행
 
-해당 파일에서 `pytest`를 호출하여 특정 테스트 파일의 테스트를 실행할수 있습니다. 예를 들어
+해당 파일에서 `pytest`를 호출하여 특정 테스트 파일의 테스트를 실행할수 있습니다. 예를 들어,
 
 ```text
 pytest nengo/tests/test_node.py
@@ -65,7 +65,7 @@ pytest --pyargs nengo --help
 
 ### 테스트 작성하기
 
-자체 테스트를 작성할 때, 기존 테스트와 잘 통합하기 위해 커스텀 nengo \[fixtures\]와 \[markers\]를 사용하세요. 예를들어 다음과같이 기존 테스트를 살펴보거나 의논하세.
+자체 테스트를 작성할 때, 기존 테스트와 잘 통합하기 위해 커스텀 nengo \[fixtures\]와 \[markers\]를 사용하세요. 예를들어 다음과같이 기존 테스트를 살펴보거나 의논하세요.
 
 ```text
 pytest --pyargs nengo --fixtures
