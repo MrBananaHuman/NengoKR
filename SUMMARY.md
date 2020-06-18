@@ -33,7 +33,7 @@
 
 ## CONTRIBUTING TO NENGO
 
-* [Nengo에 기여하기](contributing-to-nengo/contributing/README.md)
-  * [컨트리뷰터를 위한 안내서](contributing-to-nengo/contributing/general.md)
-  * [Nengo 행동강령](contributing-to-nengo/contributing/conduct.md)
+* [Nengo에 기여하기](contributing-to-nengo/contribute/README.md)
+  * [컨트리뷰터를 위한 안내서](contributing-to-nengo/contribute/general.md)
+  * [Nengo 행동강령](contributing-to-nengo/contribute/conduct.md)
 
