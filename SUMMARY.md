@@ -33,6 +33,6 @@
 
 ## CONTRIBUTING TO NENGO
 
-* [Nengo에 기여하기](contributing-to-nengo/nengo-1.md)
-* [컨트리뷰터를 위한 안내서](contributing-to-nengo/untitled-2.md)
+* [Nengo에 기여하기](contributing-to-nengo/nengo-1/README.md)
+  * [컨트리뷰터를 위한 안내서](contributing-to-nengo/nengo-1/untitled-2.md)
 
