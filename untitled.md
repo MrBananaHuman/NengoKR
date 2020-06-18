@@ -14,7 +14,7 @@ Nengo 창작물을 커뮤니티와 공유하는 방법에는 여러 가지가 �
 1. \[the examples category of the forum\]으로 이동하세요.
 2. 아직 계정이 없으면 페이지 오른쪽 상단에있는 "Sign Up" 버튼을 클릭하세요.
 3. 오른쪽 상단에있는 "New Topic" 버튼을 클릭하세요.
-4. 팝업 편집기로 게시물을 작성하고, \[Markdown\]\([https://commonmark.org/help/](https://commonmark.org/help/)\)으로 게시물 형식을 지정하세요. - 코드 블록을보다 쉽게 ​​읽을 수 있도록 형식을 지정합니다.
+4. 팝업 편집기로 게시물을 작성하고, [Markdown](https://commonmark.org/help/)으로 게시물 형식을 지정하세요. - 코드 블록을보다 쉽게 ​​읽을 수 있도록 형식을 지정합니다.
 
 창작물이 포럼 게시물에 비해 너무 큰 경우 \[예제 저장소\]에서 풀 리퀘스트 하는 것을 고려하세요.
 
@@ -22,7 +22,7 @@ Nengo 창작물을 커뮤니티와 공유하는 방법에는 여러 가지가 �
 
 Nengo 프로젝트에서 버그를 발견하거나 특정 기능이 필요하다고 생각되면 프로젝트의 Github 저장소에 이슈를 제출하세요.
 
-1. 프로젝트의 Github 페이지 \(예 : \[nengo/nengo-gui\]\([https://github.com/nengo/nengo-gui](https://github.com/nengo/nengo-gui)\) \)로 이동하세요.
+1. 프로젝트의 Github 페이지 \(예 : [nengo/nengo-gui](https://github.com/nengo/nengo-gui) \)로 이동하세요.
 2. 페이지 상단의 "이슈" 탭을 클릭하세요.
 3. 페이지 오른쪽 상단에있는 녹색의 "새 이슈"버튼을 클릭하세요.
 
@@ -30,7 +30,7 @@ Nengo 프로젝트에서 버그를 발견하거나 특정 기능이 필요하다
 
 ### 풀 리퀘스트
 
-창작물을 공유하거나 Nengo 프로젝트를 개발하거나 문서를 추가 할 때 \[풀 리퀘스트\]\([https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)\)로 기여를 관리 합니다 .
+창작물을 공유하거나 Nengo 프로젝트를 개발하거나 문서를 추가 할 때 [풀 리퀘스트](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)로 기여를 관리 합니다 .
 
 1. 기여할 \[저장소를 포크\]하고 로컬에서 복제 하세요.
 2. 저장소를 변경하기 전에 변경을위한 새 브런치를 생성하세요. `master` 브런치에서 코드를 편집해서는 안됩니다! 브런치를 생성하려면 다음 명령을 사용하세요.
