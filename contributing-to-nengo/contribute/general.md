@@ -59,7 +59,5 @@ Nengo 프로젝트에서 버그를 발견하거나 특정 기능이 필요하다
 
    그리고 Nengo 프로젝트의 저장소에 [풀 리퀘스트](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) 하세요.
 
-5. 풀 리퀘스트는 최소한 한 번의 검토를 받습니다. 검토는 여러번 반복 될 수있는 절차입니다. 리뷰에 응답 할때는 [Nengo 행동강령](https://app.gitbook.com/@nengokr/s/nengo_kr/contributing-to-nengo/contribute/conduct)에 따르세요.
-
-   {% page-ref page="conduct.md" %}
+5. 풀 리퀘스트는 최소한 한 번의 검토를 받습니다. 검토는 여러번 반복 될 수있는 절차입니다. 리뷰에 응답 할때는 [Nengo 행동강령](conduct.md)에 따르세요.
 

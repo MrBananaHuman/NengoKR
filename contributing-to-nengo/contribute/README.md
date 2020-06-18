@@ -1,10 +1,8 @@
 # Nengo에 기여하기
 
-[컨트리뷰터를 위한 안내서](https://app.gitbook.com/@nengokr/s/nengo_kr/contributing-to-nengo/contribute/general)를 먼저 읽어주세요. 아래의 설명은 `nengo` 프로젝트에 적용됩니다.
+[컨트리뷰터를 위한 안내서](general.md)를 먼저 읽어주세요. 아래의 설명은 `nengo` 프로젝트에 적용됩니다.
 
-{% page-ref page="general.md" %}
-
-### 개발자용 설치
+### 개발자용 설치 <a id="dev-install"></a>
 
 만약 nengo의 일부를 변경하고싶다면, 개발자용 설치와 의존성 설치를 해야합니다.
 
@@ -67,7 +65,7 @@ pytest --pyargs nengo --help
 
 ### 테스트 작성하기
 
-자체 테스트를 작성할 때, 기존 테스트와 잘 통합하기 위해 커스텀 nengo \[fixtures\]와 \[markers\]를 사용하세요. 예를들어 다음과같이 기존 테스트를 살펴보거나 의논하세요.
+자체 테스트를 작성할 때, 기존 테스트와 잘 통합하기 위해 커스텀 Nengo [fixtures](https://docs.pytest.org/en/latest/fixture.html)와 [markers](https://docs.pytest.org/en/latest/example/markers.html)를 사용하세요. 예를들어 다음과같이 기존 테스트를 살펴보거나 의논하세요.
 
 ```text
 pytest --pyargs nengo --fixtures
@@ -79,9 +77,9 @@ pytest --pyargs nengo --markers
 
 ### 문서 빌드 방법
 
-이 문서는 \[developer installation\]에 속해 있는 Sphinx로 작성되었습니다.
+이 문서는 [개발자용 설치](./#dev-install)에 속해 있는 Sphinx로 작성되었습니다.
 
-그러나 문서에 포함된 Jupyter노트북을 빌드하기위한 추가 요구사항인 [Pandoc](https://pandoc.org/)이 있습니다. 패키지 관리자\(예: Homebrew, `apt`\)를 사용하는 경우 패키지 관리자를 통해 [Pandoc](https://pandoc.org/)을 설치할수 있으며, 그렇지 않으면 [이 페](https://pandoc.org/installing.html)의 설명을 참조하세요.
+그러나 문서에 포함된 Jupyter노트북을 빌드하기위한 추가 요구사항인 [Pandoc](https://pandoc.org/)이 있습니다. 패키지 관리자\(예: Homebrew, `apt`\)를 사용하는 경우 패키지 관리자를 통해 [Pandoc](https://pandoc.org/)을 설치할수 있으며, 그렇지 않으면 [이 페이지](https://pandoc.org/installing.html)의 설명을 참조하세요.
 
 모든 요구사항을 설치한 후, 문서를 빌드하기 위해 `nengo`의 루트 디렉토리에서 다음 명령어를 실행하세요. 모든 예제가 문서 빌드 과정의 일부로 실행되기 때문에 이 작업은 몇분정도 걸립니다.
 
