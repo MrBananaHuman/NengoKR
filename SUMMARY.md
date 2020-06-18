@@ -30,6 +30,9 @@
     * [2차원 표현](examples/tutorial/undefined/2.md)
     * [결합](examples/tutorial/undefined/undefined-3.md)
     * [추가](examples/tutorial/undefined/undefined-4.md)
-* [Nengo에 기여하기](nengo-1.md)
-* [컨트리뷰터를 위한 안내서](untitled.md)
+
+## CONTRIBUTING TO NENGO
+
+* [Nengo에 기여하기](contributing-to-nengo/nengo-1.md)
+* [컨트리뷰터를 위한 안내서](contributing-to-nengo/untitled-2.md)
 
