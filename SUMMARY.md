@@ -8,7 +8,6 @@
   * [NumPy 설치](nengo/undefined/numpy.md)
   * [이외 패키지 설치](nengo/undefined/undefined.md)
 * [사용법](nengo/undefined-1/README.md)
-  * [테스트페이지세미](nengo/undefined-1/undefined-2.md)
   * [Nengo 객체 생성](nengo/undefined-1/nengo.md)
   * [Nengo 객체 연결](nengo/undefined-1/nengo-1.md)
   * [Nengo 객체 조사](nengo/undefined-1/nengo-2.md)
@@ -32,4 +31,5 @@
     * [결합](examples/tutorial/undefined/undefined-3.md)
     * [추가](examples/tutorial/undefined/undefined-4.md)
 * [Nengo에 기여하기](nengo-1.md)
+* [컨트리뷰터를 위한 안내서](untitled.md)
 
