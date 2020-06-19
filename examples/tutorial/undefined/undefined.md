@@ -21,9 +21,9 @@ with model:
     neuron = nengo.Ensemble(
         1,
         dimensions=1,  # 1D sclar 값으로 표
-        # Intercept를 0.5로 설
+        # Intercept를 0.5로 설정
         intercepts=Uniform(-.5, -.5),
-        # 신경세포의 최대 발화 빈도를 100hz로 설
+        # 신경세포의 최대 발화 빈도를 100hz로 설정
         max_rates=Uniform(100, 100),
         # 신경세포의 발화는 양수의 입력에 따라 증가하도록 설
         encoders=[[1]])
