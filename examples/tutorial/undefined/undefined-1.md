@@ -6,7 +6,7 @@
 
 첫번째 뉴런은 양의 입력값에 따라 증가할 것이고, 다른 뉴런은 감소할 것입니다. 이것은  하나의 스칼라 값을 논리적으로 표현할 수 있는 가장 단순한 집단으로 볼 수 있습니다.
 
-```text
+```python
 %matplotlib inline
 import matplotlib.pyplot as plt
 import numpy as np
@@ -18,7 +18,7 @@ from nengo.utils.matplotlib import rasterplot
 
 ### 1 단계: 뉴런의 생성
 
-```text
+```python
 model = nengo.Network(label='Two Neurons')
 with model:
     neurons = nengo.Ensemble(
@@ -36,14 +36,14 @@ with model:
 
 Create an input node generating a sine wave.
 
-```text
+```python
 with model:
     sin = nengo.Node(lambda t: np.sin(8 * t))
 ```
 
 ### 3 단: Connect the network elements
 
-```text
+```python
 with model:
     nengo.Connection(sin, neurons, synapse=0.01)
 ```
