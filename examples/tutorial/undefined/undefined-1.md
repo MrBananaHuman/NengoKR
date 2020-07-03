@@ -24,31 +24,33 @@ with model:
     neurons = nengo.Ensemble(
         # 1D scalar 값으로 표현
         2, dimensions=1, 
-        # Set the intercepts at .5
+        # 인터셉트를 .5로 설정
         intercepts=Uniform(-.5, -.5),  
-        # Set the max firing rate at 100hz
+        # 최대 발화주기를 100hz로 설정
         max_rates=Uniform(100, 100),  
-        # One 'on' and one 'off' neuron
+        # 뉴런 하나는 'on', 다른 하나는 'off'로 설정
         encoders=[[1], [-1]])  
 ```
 
-### 2 단계: Create input for the model
+### 2 단계: 모델을 위한 입력 생성
 
-Create an input node generating a sine wave.
+사인파를 발생시키는 입력 노드 생성
 
 ```python
 with model:
     sin = nengo.Node(lambda t: np.sin(8 * t))
 ```
 
-### 3 단: Connect the network elements
+### 3 단: 네트워크 요소들을 연결
 
 ```python
 with model:
     nengo.Connection(sin, neurons, synapse=0.01)
 ```
 
-### 4 단계: Probe outputs
+### 4 단계: 프로브 출력
 
-Anything that is probed will collect the data it produces over time, allowing us to analyze and visualize it later.
+관찰되는 모든 것은 시간별로 생성되는 데이타로 수집되어 추후에 분석 및 시각화할 수 있다. 
+
+
 
